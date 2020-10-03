@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 int main() {
-int i=0;
+int i=1;
 x:
-if(i<10)
+if(i<=10)
 {
-    printf("looping without any loop!!!!!!\n");
+    printf("looping without any loop\n");
     i++;
     goto x;
 }
