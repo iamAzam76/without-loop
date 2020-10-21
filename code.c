@@ -10,4 +10,5 @@ if(i<=10)
     goto x;
 }
     return 0;
+      getch();
 }
